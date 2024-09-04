@@ -45,7 +45,7 @@ btn.addEventListener('click',(e)=>{
             <h3>Current</h3>
             <h3 class="city">${data.name}</h3>
         </div>
-        <h2 class="temp">${Math.round(data.main.temp - 273.15)} C</h2>
+        <h2 class="temp">${Math.round(data.main.temp - 273.15)} ℃</h2>
     </div>
     <h1 class="desc">${data.weather[0].description}</h1>
     <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">
